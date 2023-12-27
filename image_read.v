@@ -2,9 +2,9 @@
 /******************  Module for reading and processing image     **************/
 /******************************************************************************/
 
-//`define SOBEL_OPERATION
-`define GAUSSIAN_BLUR_OPERATION
-//`define GRAYSCALE_OPERATION
+`define SOBEL_OPERATION
+//`define GAUSSIAN_BLUR_OPERATION
+`define GRAYSCALE_OPERATION
 module image_read
 #(
   parameter WIDTH 	= 300, 						// Image width

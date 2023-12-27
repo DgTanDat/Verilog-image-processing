@@ -6,14 +6,14 @@
 /*************************** **********************************************/
 /*************************** Definition file ******************************/
 /*************************** **********************************************/
-`define INPUTFILENAME		 "out2.hex" // Input file name
-`define OUTPUTFILENAME		 "output4.bmp"		// Output file name
-`define OUTPUTHEXFILE		 "out4.hex"
+`define INPUTFILENAME		 "seaG.hex" // Input file name
+`define OUTPUTFILENAME		 "seaSB.bmp"		// Output file name
+`define OUTPUTHEXFILE		 "seaSB.hex"
 // Choose the operation of code by delete // in the beginning of the selected line
 
-//`define SOBEL_OPERATION
-`define GAUSSIAN_BLUR_OPERATION
-//`define GRAYSCALE_OPERATION
+`define SOBEL_OPERATION
+//`define GAUSSIAN_BLUR_OPERATION
+`define GRAYSCALE_OPERATION
 
 module tb_simulation;
 
